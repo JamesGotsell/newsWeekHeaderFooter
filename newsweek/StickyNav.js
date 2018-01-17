@@ -13,11 +13,9 @@ onload = (() => {
         content.classList.add('fixed')
         content.style.paddingTop = 0;
     } else{
-
       document.body.classList.remove('fixedHeader') 
       content.classList.remove('fixed')   
       content.style.paddingTop = 0;
-      
     }
   }
   toggleMenu = () => {
